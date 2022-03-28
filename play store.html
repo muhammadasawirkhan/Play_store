@@ -1,0 +1,578 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>play store</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	body{
+
+		padding: 0;
+		margin: 0px;
+		background-color: #f1f1f1;
+	}
+	.container{
+		padding: 0;
+		margin: 0px;
+	}
+.row{
+	width: 98vw;
+	height: 100vh;
+	display: flex;
+}
+.logo{	
+	width: 25vw;
+	height: 8vh;
+	display:inline-flex;
+}
+.logo img {
+	margin-top: 1vh;
+    width: 20vw;
+    height: 10vh;
+    cursor: pointer;
+}
+
+
+.search{
+	width: 30px;
+	height: 10vh;
+	margin-left: 5vw;
+	margin-top:3vh;
+	background-color: #f1f1f1;
+} 
+.search-btn{
+	margin-left: 44vw;
+	margin-top: 3vh;
+	height: 4.6vh;
+	width: 4.6vw;
+	background-color: #4585f3;
+}
+.search-btn img{
+	margin-left: -1.5vw;
+	margin-top: -0.5vh;
+	height: 4.6vh;
+	width: 5.6vw;
+	background-color: #4585f3;
+}
+.setting {
+	margin-left: 17vw;
+	margin-top: 3vh;
+	width: 2.8vw;
+	height: 4.5vh;
+	display:inline-flex;
+}
+
+.setting img{
+	margin-left: -0.9vw;
+	margin-top: -1vh;
+	width: 4.5vw;
+	height: 5.5vh;
+	background-color: #4585f3;
+	display: flex;
+}
+.profile{
+	margin-left: 0.5vw;
+	margin-top: 3vh;
+	width: 2vw;
+	height: 5vh;
+	display: flex;
+}
+.profile img{
+	margin-left: -1vw;
+	margin-top: -1vh;
+	width: 3vw;
+	height: 6vh;
+	background-color: #4585f3;
+	display: flex;
+}
+.apps{
+	margin-top: 12vh;
+	margin-left: -25vw;
+	display: table;
+	cursor: pointer;
+}
+.containerX{
+	width: 17vw;
+	height: 24.5vh;
+	border: 1px solid #f1f1f1;
+	margin-left: -17vw;
+	margin-top: 22vh;
+	font-size: 16px;
+	list-style-type: none;
+	padding-bottom: 6vh;
+	padding-top: 6vh;
+	background-color: #f5f5f5;
+
+}
+.box{
+	display: block;
+	word-break: keep-all;
+	background-color: #f5f5f5;
+
+}
+.box li{
+	display: block;
+	word-break: keep-all;
+	margin-top: -4vh;
+	margin-left: 1vw;
+	font-size: 25px;
+	font-family: roboto;
+	cursor: pointer;
+}
+.box li:hover{
+	background-color: lightgrey;
+}
+.box2{
+	background-color: #f5f5f5;
+}
+.box2 li{
+	margin-top: -1vh;
+	margin-left: 1vw;
+	cursor: pointer;
+}
+.box2 li:hover{
+	background-color: lightgrey;
+}
+.box3{
+	background-color :#eeeeee;
+	height: 33vh;
+	margin-top: -3vh;
+}
+.box3 li{
+	margin-top: -1vh;
+	margin-left: -1vw;
+	cursor: pointer;
+}
+.box3 li:hover{
+	background-color: lightgrey;
+}
+.containerZ{
+	width: 82.8vw;
+	height: 10vh;
+	border: 1px  #f5f5f5;
+	margin-top: -87.2vh;
+	margin-left: 16.9vw;
+	background-color: #f5f5f5;
+}
+.right{
+	background-color: #f5f5f5;
+	word-break: keep-all;
+	display: block;
+	width: 5vw;
+	height: 3vh;
+
+}
+.right ul{
+	margin-top: 0vh;
+	margin-left: 2vw;
+	font-size: 18px;
+	cursor: pointer;
+	margin-bottom: 3vw;
+	display:block;
+	padding-top: 3vh;
+	padding-bottom: 3vw;
+	width: 6vw;
+}
+.vl {
+    background: #d6d6d6;
+    display: inline-block;
+    height: 30px;
+    margin: 9px 5px;
+    padding: 0;
+    margin-top: -4vh;
+    width: 1px;
+    margin-left: 8vw;
+}
+
+.right li:hover{
+	background-color: lightgrey;
+}
+.home li:hover{
+	background-color: lightgrey;
+}
+.home{
+	background-color: #f5f5f5;
+	word-break: keep-all;
+	display: block;
+	width: 9vw;
+	height: 4vh;
+	margin-top: -3vh;
+	margin-left: 13vw;
+	font-size: 18px;
+}
+.home li{
+	display: inline-flex;
+}
+.top-charts li:hover{
+	background-color: lightgrey;
+}
+.top-charts{
+	background-color: #f5f5f5;
+	word-break: keep-all;
+	display: block;
+	width: 9vw;
+	height: 4vh;
+	margin-top: -7vh;
+	margin-left: 19vw;
+	font-size: 18px;
+}
+.top-charts li{
+	display: inline-flex;
+	float: left;
+}
+.new li:hover{
+	background-color: lightgrey;
+}
+.new{
+	background-color: #f5f5f5;
+	word-break: keep-all;
+	display: block;
+	width: 13vw;
+	height: 4vh;
+	margin-top: -7vh;
+	margin-left: 27vw;
+	font-size: 18px;
+}
+.new li{
+	display: inline-flex;
+}
+.bottom{
+	margin-top: 10vh;
+	margin-left: 1vw;
+	color: #333333;
+	cursor: pointer;
+	width: 18vw;
+
+}
+.youtube{
+	background-color: #f5f5f5;
+	border: #eeeeee;
+	width: 12vw;
+	height: 37vh;
+	margin-left: 3.8vw;
+}
+.youtube img{
+	width: 12vw;
+	height: 24vh;
+}
+.youtube img:hover{
+	background-color: 	grey;
+	cursor: pointer;
+}
+.youtube li{
+	margin-left: -2vw;
+	margin-top: -2vh;
+	font-size: 18px;
+	color :#807f7f;	
+}
+.youtube li a{
+	color: #807f7f;
+	text-decoration: none;
+}
+.picsart{
+	background-color: #f5f5f5;
+	border: #eeeeee;
+	width: 12vw;
+	height: 37vh;
+	margin-left: 18vw;
+	margin-top: -37vh;
+}
+.picsart img{
+	width: 12vw;
+	height: 24vh;
+}
+.picsart img:hover{
+	background-color: 	grey;
+	cursor: pointer;
+}
+.picsart li{
+	margin-left: -2vw;
+	margin-top: -2vh;
+	font-size: 18px;
+	color :#807f7f;	
+}
+.picsart li a{
+	color: #807f7f;
+	text-decoration: none;
+}
+.instagram{
+	background-color: #f5f5f5;
+	border: #eeeeee;
+	width: 12vw;
+	height: 37vh;
+	margin-left: 32vw;
+	margin-top:-37vh ;
+
+}
+.instagram img{
+	width: 12vw;
+	height: 24vh;
+}
+.instagram img:hover{
+	background-color: 	grey;
+	cursor: pointer;
+}
+.instagram li{
+	margin-left: -2vw;
+	margin-top: -2vh;
+	font-size: 18px;
+	color :#807f7f;	
+}
+.instagram li a{
+	color: #807f7f;
+	text-decoration: none;
+}
+.facebook{
+	background-color: #f5f5f5;
+	border: #eeeeee;
+	width: 12vw;
+	height: 37vh;
+	margin-left: 46vw;
+	margin-top:-37vh ;
+
+}
+.facebook img{
+	width: 12vw;
+	height: 24vh;
+}
+.facebook img:hover{
+	background-color: 	grey;
+	cursor: pointer;
+}
+.facebook li{
+	margin-left: -2vw;
+	margin-top: -2vh;
+	font-size: 18px;
+	color :#807f7f;	
+}
+.facebook li a{
+	color: #807f7f;
+	text-decoration: none;
+}
+.netflix{
+	background-color: #f5f5f5;
+	border: #eeeeee;
+	width: 12vw;
+	height: 37vh;
+	margin-left: 60vw;
+	margin-top:-37vh ;
+
+}
+.netflix img{
+	width: 12vw;
+	height: 24vh;
+}
+.netflix img:hover{
+	background-color: 	grey;
+	cursor: pointer;
+}
+.netflix li{
+	margin-left: -2vw;
+	margin-top: -2vh;
+	font-size: 18px;
+	color :#807f7f;	
+}
+.netflix li a{
+	color: #807f7f;
+	text-decoration: none;
+}
+.end{
+	margin-top: 2vh;
+	margin-left: 1vw;
+	color: #333333;
+	cursor: pointer;
+	width: 21vw;
+}
+
+
+
+	</style>
+</head>
+<body>
+	<div class=" row">
+		<div class="container">
+			<div class="logo">
+			<img src="images/Play-Store.jpg">
+		
+		<div class="search">
+			<input type="text" name="search" placeholder="Search" style="font-size: 14pt; height: 23px; width:100vh;">			   
+			</div>
+			<button class="search-btn"> <img src="images/search.jpg"></button>
+			<button class="setting"> <img src="images/settings.jpg"></button>
+			<button class="profile"><img src="images/profile image.png"></button>
+
+		</div>	
+		</div>
+
+		<div class="apps">
+			<img src="images/apps.jpg" style="width: 17vw; height: 10vh;">
+		</div>
+
+		<div class="containerX">
+			<div  class="box">
+				<ul style="list-style: none; position: left; color: #807f7f;">
+					<li>My apps</li>
+					<br>
+					<br>
+					<li style="color: #689f38;">Shop</li>
+					<br>
+					<hr style="opacity: 4; width: 11vw; margin-left: 1vw;">
+					<br>
+				</ul>
+			</div>
+				<div class="box2">
+				<ul style="list-style:none; position:left; color: #807f7f;">
+					<li>Games</li>
+					<br>
+					<li>Kids</li>
+					<br>
+					<li>Editor's Choice</li>
+					<br>
+					<hr style="opacity: 4; width: 16.8vw; margin-left: -2.9vw;">
+
+				</ul>
+				</div>
+				<div class="box3" style="margin-top: -1vh;">
+					<ul style="list-style:none; position: left;color: #807f7f;">	
+						<li>Account</li>
+						<br>
+						<li>Payment methods</li>
+						<br>
+						<li>My Subscripitions</li>
+						<br>
+						<li>Redeem</li>
+						<br>
+						<li>My Wishlist</li>
+						<br>
+						<li>My Play activity</li>
+						<br>
+						<li>Parent Guide</li>
+
+					</ul>
+				</div>
+
+				<div class="containerZ">
+					<div class="right">
+						<ul style="list-style:none; color: #807f7f; position: left;">
+							<li>Categories</li>
+							<div class="vl"></div>
+							</ul>
+							</div>
+
+							<div class="home">
+							<ul style="list-style: none; color: #807f7f;position: left;">
+									<li>Home</li>
+								
+
+                                    </ul>
+                                    </div>
+                                    <div class="top-charts">
+							<ul style="list-style: none; color: #807f7f;position: left;">
+									<li>Top charts</li>
+								
+
+                                    </ul>
+                                    </div>
+                                    <div class="new">
+                                    <ul style="list-style: none; color: #807f7f;position: left;">
+									<li>New releases</li>
+								
+
+                                    </ul>
+                                    </div>
+
+                                    <div class="bottom">
+                                    	<ul>
+                                    		<h1>Low on space?</h1>
+                                    		<h3>lightweigth apps</h3>
+                                    	</ul>
+
+                                    </div>
+
+                                    <div class="youtube">
+                                    	<img src="images/youtube.jpg">
+                                    	<ul style="list-style:none; color :#807f7f;">
+                                    		<li><a href="#youtube"> YouTube</a></li>
+                                    		<br>
+                                    		<li style="font-size:12px;"><a href="#google-llc"> Google LLC</a></li>
+                                    		<img src="images/stars.jpg" style="width:12vw; height:3vh;margin-left: -3vw; margin-top: 1.5vh;">
+                                    	</ul>
+                                    </div>
+
+
+                                    <div class="picsart">
+                                    	<img src="images/picsart.jpg">
+                                    	<ul style="list-style:none; color :#807f7f;">
+                                    		<li><a href="#picsart"> PicsArt Photo</a></li>
+                                    		<br>
+                                    		<li style="font-size:12px;"><a href="#picsart, inc"> PicsArt, inc</a></li>
+                                    		<img src="images/stars.jpg" style="width:12vw; height:3vh;margin-left: -3vw; margin-top: 1.5vh;">
+                                    	</ul>
+                                    </div>
+
+
+                                    <div class="instagram">
+                                    	<img src="images/instagram.jpg">
+                                    	<ul style="list-style:none; color :#807f7f;">
+                                    		<li><a href="#instagram"> Instagram</a></li>
+                                    		<br>
+                                    		<li style="font-size:12px;"><a href="#instagram"> Instagram</a></li>
+                                    		<img src="images/stars.jpg" style="width:12vw; height:3vh;margin-left: -3vw; margin-top: 1.5vh;">
+                                    	</ul>
+                                    </div>
+
+
+                                    <div class="facebook">
+                                    	<img src="images/facebook.jpg">
+                                    	<ul style="list-style:none; color :#807f7f;">
+                                    		<li><a href="#facebook"> Facebook</a></li>
+                                    		<br>
+                                    		<li style="font-size:12px;"><a href="#facebook"> Facebook</a></li>
+                                    		<img src="images/stars.jpg" style="width:12vw; height:3vh;margin-left: -3vw; margin-top: 1.5vh;">
+                                    	</ul>
+                                    </div>
+
+
+                                    <div class="netflix">
+                                    	<img src="images/netflix.jpg">
+                                    	<ul style="list-style:none; color :#807f7f;">
+                                    		<li><a href="#netflix"> Netflix</a></li>
+                                    		<br>
+                                    		<li style="font-size:12px;"><a href="#netflix, inc"> Netflix</a></li>
+                                    		<img src="images/stars.jpg" style="width:12vw; height:3vh;margin-left: -3vw; margin-top: 1.5vh;">
+                                    	</ul>
+                                    </div>
+
+                                    <div class="end">
+                                    	<ul>
+                                    		<h1>You Might Like...</h1>
+                                    		<h3>Based on your recent installs</h3>
+
+                                    	</ul>
+                                    </div>
+
+
+
+
+
+
+
+							
+
+
+
+
+					</div>
+
+
+
+				</div>
+
+
+
+
+
+		</div>
+	</div>
+
+</body>
+</html>
